@@ -38,8 +38,15 @@ main{
     padding: 20px 30px;
     
 }
-#btnCalc{
+#btnCalc, #btnReCalc{
     border: 0px;
     padding: 5px 10px;
     background-color: var(--green);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    box-shadow: 2px 2px 10px var(--yellow);
 }

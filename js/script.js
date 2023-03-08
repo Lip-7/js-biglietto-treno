@@ -14,7 +14,7 @@ function priceCalculator(){
         document.getElementById('ticketMessage').innerHTML = `<h2 id="ticketMessage" class="h1 m-5">The ticket cost is <span id="ticketCosttry">${price.toFixed(2)}</span> &euro;</h2>`;
     }else{
         document.getElementById('ticketMessage').innerHTML = `<h2 id="ticketMessage" class="h1 m-5">${errorMessage} <span id="ticketCosttry">0</span> &euro;</h2>`;
-
     }
-
+    document.getElementById('result').classList.remove('d-none')
+    document.getElementById('calculator').classList.add('d-none')
 }
